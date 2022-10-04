@@ -1,0 +1,45 @@
+#copyright {
+    text-align: center;
+}
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    display: block;
+ }
+ header img {
+    float: left;
+ }
+ header h2 {
+   margin-left: 10%;
+   color: orange;
+   font-style: italic;
+   text-shadow: 2px 2px 2px black;
+ }
+ header h3 {
+   margin-left: 10%;
+ }
+ p {
+    font-size: 100%
+ }
+ h1 {
+    font-size: 200%;
+ }
+ h2 {
+    font-size: 150%;
+ }
+ h3 {
+    font-size: 117%;
+ }
+ main h1 {
+    font-size: 140%;
+ }
+main h1:first-letter {
+    font-size: 250%;
+}
+a:active, a:visited {
+   color: orange;
+   bo
+}
+a:hover, a:focus {
+   color: green;
+}
