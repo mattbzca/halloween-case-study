@@ -10,19 +10,20 @@
     background-color: white;
     border: 100% black;
     box-shadow: 3px 3px 3px 3px black;
+    margin: auto;
  }
  header img {
     float: left;
  }
  header h2 {
    font-size: 250%;
-   margin-left: 5%;
+   margin-left: 11%;
    color: orange;
    font-style: italic;
    text-shadow: 2px 2px 2px black;
  }
  header h3 {
-   margin-left: 5%;
+   margin-left: 12%;
    font-size: 150%;
    font-weight: bold;
  }
@@ -54,4 +55,7 @@ a:hover, a:focus {
 }
 ul {
    line-height: 150%;
+}
+ul li a {
+   text-decoration: underline;
 }
