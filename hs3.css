@@ -36,6 +36,9 @@
  main h1 {
     font-size: 140%;
  }
+ h1 {
+   font-weight: bold;
+ }
 main h1:first-letter {
     font-size: 250%;
 }
