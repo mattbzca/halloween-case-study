@@ -10,13 +10,16 @@
     float: left;
  }
  header h2 {
-   margin-left: 10%;
+   font-size: 250%;
+   margin-left: 5%;
    color: orange;
    font-style: italic;
    text-shadow: 2px 2px 2px black;
  }
  header h3 {
-   margin-left: 10%;
+   margin-left: 5%;
+   font-size: 150%;
+   font-weight: bold;
  }
  p {
     font-size: 100%
@@ -36,9 +39,9 @@
 main h1:first-letter {
     font-size: 250%;
 }
-a:active, a:visited {
+a:visited, a:link {
    color: orange;
-   bo
+   font-weight: bold;
 }
 a:hover, a:focus {
    color: green;
