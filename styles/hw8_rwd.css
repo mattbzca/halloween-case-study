@@ -1,0 +1,146 @@
+#copyright {
+    text-align: center;
+    font-size: 90%;
+}
+footer {
+    border-top: 3px solid black;
+    background-image: linear-gradient(45deg, black 0%, orange 25%, white 100%);
+    padding: 1.25%;
+    clear: both;
+   }
+ body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    width: 95%;
+    background-color: white;
+    box-shadow: 0px 6px 12px 6px black;
+    margin: 0 auto;
+    padding: 0;
+    border: 3px solid black;
+    max-width: 960px;
+ }
+ html {
+   background-image: url("../images/bats.gif");
+ }
+ h1, h2, h3, p {
+   margin: 0;
+   padding: 0;
+ }
+ header { 
+   border-bottom: 3px solid black;
+   background-image: linear-gradient(45deg, white 0%, orange 75%, black 100%);
+   padding: 1.25%;
+}
+ header img {
+    float: left;
+    padding-right: 1.25%;
+ }
+ header h2 {
+   font-size: 250%;
+ }
+ header h3 {
+   font-size: 125%;
+ }
+ section h1 {
+    font-size: 140%;
+    margin-bottom: .5em;
+ }
+ section h2 {
+   font-size: 125%;
+   margin-bottom: .5em;
+ }
+ section h3 {
+   font-size: 110%;
+   margin-bottom: .5em;
+ }
+ section p {
+   margin-bottom: .5em;
+ }
+section h1:first-letter {
+    font-size: 250%;
+}
+section a:visited, a:link {
+   color: orange;
+}
+section a {
+    font-weight: bold;
+}
+section a:hover, a:focus {
+   color: green;
+}
+aside {
+    float: left;
+    width: 160px;
+    padding: 2.5% 0;
+}
+aside ul {
+    line-height: 1.5;
+}
+section {
+    float: right;
+    padding: 2.5% 40px 2.5% 20px;
+    width: 580px;
+}
+/* Nav menu */
+#nav_menu ul {
+    list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#nav_menu ul li {
+    float: left;
+}
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    width: 160px;
+    padding: .8em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+#nav_menu ul li a.current {
+    color: orange;
+}
+#nav_menu ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+#nav_menu ul ul li {
+    float: none;
+}
+#nav_menu ul li:hover > ul {
+    display: block;
+}
+#nav_menu > ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+#nav_menu ul li a:hover, #nav_menu ul li a:focus {
+    background-color: gray;
+}
+/* aside bar */
+* {
+    margin: 0;
+    padding: 0;
+}
+#nav_list ul {
+    list-style-type: none;
+    padding-left: 15%;
+    width: 125px;
+}
+#nav_list ul li {
+
+    margin-bottom: .5em;
+    border: 2px solid black;
+}
+#nav_list ul li a {
+    display: block;
+    padding: .5em 0 .5em .5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: orange;
+}
