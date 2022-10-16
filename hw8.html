@@ -1,8 +1,16 @@
 <!DOCTYPE html> 
 <html lang="en"><head>
 	<meta charset="utf-8">
-<link rel="stylesheet" href="styles/hw8_rwd.css">
-<link rel="stylesheet" href="styles/slicknav.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/hw8_rwd.css">
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <script src="http://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});
+</script>
 	<title>Halloween Store</title>
 </head>
 <body>
@@ -11,60 +19,51 @@
         <h2>The Halloween Store</h2>
         <h3>For the little Goblin in all of us!</h3>
     </header>
-    <nav id="mobile">
-        <div class="slicknav_menu">
-            <a href="#" aria-haspopup="true" tabindex="0" class="slicknav_btn" style="outline: none;"> 
-                <span class="slicknav_menutxt">MENU</span>
-                <span class="slicknav_icon">
-                    <span class="slicknav_icon-bar"></span>
-                    </span><span class="slicknav_icon-bar"></span>
-                    </span><span class="slicknav_icon-bar"></span>
-                </span>
-            </a>
-            <nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">...</nav>
-        </div>
-        </nav>
+    <nav id="mobile_menu"></nav>
     <nav id="nav_menu">
         <ul>
-            <li><a href="#" class="current">Home</a></li>
-            <li><a href="#">Product List</a></li>
-            <li><a href="#">Personal</a></li>
-            <li><a href="#">Decorating Ideas</a>
+            <li><a href="hw8.html" class="current">Home</a></li>
+            <li><a href="productlist/index.html">Product List</a></li>
+            <li><a href="personal/index.html">Personal</a></li>
+            <li><a href="decoratingideas/index.html">Decorating Ideas</a>
                 <ul>
-                    <li><a href="#">Outdoor</a></li>
-                    <li><a href="#">Indoor</a></li>
-                    <li><a href="#">Table</a></li>
-                    <li><a href="#">Treats</a></li>
+                    <li><a href="decoratingideas/outdoor.html">Outdoor</a></li>
+                    <li><a href="decoratingideas/indoor.html">Indoor</a></li>
+                    <li><a href="decoratingideas/table.html">Table</a></li>
+                    <li><a href="decoratingideas/treats.html">Treats</a></li>
                 </ul>
             </li>
-            <li><a href="#">Join Email</a></li>
+            <li><a href="joinemail.html">Join Email</a></li>
         </ul>
     </nav>
     <main>
-        <aside id="nav_list">
+       
+            <section>
+                <h1>
+                    Welcome to my site.
+                    <br>
+                    Please come in and stay awhile.
+                </h1>
+                <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
+                <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
+                <h2>Product of the week</h2>
+                <p><img src="images/cat1.jpg" alt="cat"></p>
+                <p><a href="products/cat.html">20" Deranged cat</a>   
+                </p>
+                <h3>My guarantee</h1>
+                <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <strong>No questions asked!</strong></p>
+            </section>
+            <aside>
+            <nav id="nav_list">
             <ul>
                 <li><a href="props.html">Props</a></li>
                 <li><a href="costumes.html">Costumes</a></li>
                 <li><a href="special.html">Special FX</a></li>
                 <li><a href="masks.html">Masks</a></li>
             </ul>
+            </nav>
         </aside>
-        <section>
-            <h1>
-                Welcome to my site.
-                <br>
-                Please come in and stay awhile.
-            </h1>
-            <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.</p>
-            <p>If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
-            <h2>Product of the week</h2>
-            <p><img src="images/cat1.jpg" alt="cat"></p>
-            <p><a href="products/cat.html">20" Deranged cat</a>   
-            </p>
-            <h3>My guarantee</h1>
-            <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <strong>No questions asked!</strong></p>
-        </section>
-    </main>
+        </main>
     <footer id="copyright">© 2022 Matthew Tan</footer>
 </body>
 </html>

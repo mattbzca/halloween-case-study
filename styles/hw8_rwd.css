@@ -158,7 +158,7 @@ section {
     color: black;
     background-color: orange;
 }
-#mobile {
+#mobile_menu {
     display: none;
 }
 @media only screen and (max-width: 800px) {
@@ -174,8 +174,8 @@ section {
     #nav_menu {
         display: none;
     }
-    #mobile {
-        display: none;
+    #mobile_menu {
+        display: block;
     }
     header h2 {
         font-size: 200%;
